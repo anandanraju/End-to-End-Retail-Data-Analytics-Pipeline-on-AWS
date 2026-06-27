@@ -21,7 +21,6 @@ This project demonstrates the implementation of a modern data analytics pipeline
 
 <img width="1000" height="500" alt="AWS Project" src="https://github.com/user-attachments/assets/4667265e-97c7-4709-9a69-5c577e961bd0" />
 
-
 ### AWS Services Used
 
 | AWS Service           | Purpose                                       |
