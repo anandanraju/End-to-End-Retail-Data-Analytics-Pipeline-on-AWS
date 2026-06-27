@@ -5,6 +5,10 @@ An end-to-end cloud-based data analytics solution that processes retail sales da
 
 This project demonstrates the implementation of a modern data analytics pipeline using AWS. Retail sales data in CSV format is uploaded to Amazon S3, automatically processed through AWS Lambda, transformed using AWS Glue, and stored in a curated data lake. The final dataset is visualized in Power BI to provide actionable business insights.
 
+### Architecture
+
+<img width="1000" height="500" alt="AWS Project" src="https://github.com/user-attachments/assets/4667265e-97c7-4709-9a69-5c577e961bd0" />
+
 ### Features
 
 * Automated CSV file ingestion
@@ -16,10 +20,6 @@ This project demonstrates the implementation of a modern data analytics pipeline
 * Interactive Power BI dashboard
 * Fully serverless architecture
 * Scalable and cost-effective data pipeline
-
-### Architecture
-
-<img width="1000" height="500" alt="AWS Project" src="https://github.com/user-attachments/assets/4667265e-97c7-4709-9a69-5c577e961bd0" />
 
 ### AWS Services Used
 
@@ -80,6 +80,8 @@ Retail-Data-Analytics-Pipeline/
 5. The cleaned dataset is saved to the **Processed S3 Bucket**.
 6. AWS Glue Crawler scans the processed data and updates the Glue Data Catalog.
 7. AWS Glue ETL transforms and enriches the data.
+<img width="241" height="247" alt="Screenshot 2026-06-27 231958" src="https://github.com/user-attachments/assets/aa884847-251a-437c-bf96-8c7b15b274ae" />
+
 8. The final dataset is stored in the **Final S3 Bucket**.
 9. Power BI connects to the final data to create interactive dashboards.
 
