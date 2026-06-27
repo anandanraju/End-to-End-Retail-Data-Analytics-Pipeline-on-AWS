@@ -1,0 +1,6 @@
+ghi,dhi,precip,timestamp_utc,temp,app_temp,dni,snow_depth,wind_cdir,rh,pod,pop,ozone,clouds_hi,clouds,vis,wind_spd,wind_cdir_full,slp,datetime,ts,pres,dewpt,uv,clouds_mid,wind_dir,snow,clouds_low,solar_rad,wind_gust_spd,timestamp_local,"description(output)",code,partition_0
+1,"Gold Rewards",Gold,1500,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,processed
+2,"Platinum Perks",Platinum,2500,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,processed
+3,"Silver Savers",Silver,800,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,processed
+4,"Bronze Benefits",Bronze,400,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,processed
+5,"Exclusive Elite",Elite,3000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,processed
