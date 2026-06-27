@@ -22,7 +22,7 @@ This project demonstrates the implementation of a modern data analytics pipeline
 <img width="1000" height="500" alt="AWS Project" src="https://github.com/user-attachments/assets/4667265e-97c7-4709-9a69-5c577e961bd0" />
 
 
-### 🛠️ AWS Services Used
+### AWS Services Used
 
 | AWS Service           | Purpose                                       |
 | --------------------- | --------------------------------------------- |
@@ -75,14 +75,14 @@ Retail-Data-Analytics-Pipeline/
 ### Workflow
 
 1. User uploads a retail sales CSV file.
-2. The file is stored in the **Amazon S3 Raw Zone**.
+2. The file is stored in the **Amazon S3 Raw Bucket**.
 3. An S3 event notification triggers an **AWS Lambda** function.
 4. Lambda validates, cleans, and preprocesses the data.
-5. The cleaned dataset is saved to the **Processed S3 Zone**.
+5. The cleaned dataset is saved to the **Processed S3 Bucket**.
 6. AWS Glue Crawler scans the processed data and updates the Glue Data Catalog.
 7. AWS Glue ETL transforms and enriches the data.
-8. The final curated dataset is stored in the **Curated S3 Zone**.
-9. Power BI connects to the curated data to create interactive dashboards.
+8. The final dataset is stored in the **Final S3 Bucket**.
+9. Power BI connects to the final data to create interactive dashboards.
 
 ### Dashboard Insights
 
@@ -108,19 +108,19 @@ The Power BI dashboard provides key retail business metrics, including:
 * Built Python-based preprocessing logic with AWS Lambda.
 * Implemented schema discovery using AWS Glue Crawler.
 * Performed ETL transformations using AWS Glue.
-* Created a curated data lake for reporting.
+* Created a final data lake for reporting.
 * Developed interactive business dashboards using Power BI.
 * Gained hands-on experience with AWS cloud analytics services.
 
 ### Deployment Steps
 
-1. Create Amazon S3 buckets for **Raw**, **Processed**, and **Curated** data.
+1. Create Amazon S3 buckets for **Raw**, **Processed**, and **Final** data.
 2. Configure an S3 Event Notification to trigger AWS Lambda.
 3. Deploy the Lambda function for data validation and preprocessing.
 4. Create and run an AWS Glue Crawler.
 5. Configure the AWS Glue ETL Job.
-6. Execute the ETL job to generate the curated dataset.
-7. Connect Power BI to the curated S3 data and build the dashboard.
+6. Execute the ETL job to generate the final dataset.
+7. Connect Power BI to the final S3 data and build the dashboard.
 
 ### Author
 
