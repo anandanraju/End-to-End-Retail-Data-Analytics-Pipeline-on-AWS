@@ -19,39 +19,8 @@ This project demonstrates the implementation of a modern data analytics pipeline
 
 ### Architecture
 
-                         User
-                           │
-                    Upload CSV File
-                           │
-                           ▼
-                      Amazon S3 
-                      (Raw Zone)
-                           │
-                  S3 Event Notification
-                           │
-                           ▼
-                       AWS Lambda
-                 (Validation & Cleaning)
-                           │
-                           ▼
-                        Amazon S3 
-                    (Processed Zone)
-                           │
-                           ▼
-                    AWS Glue Crawler
-                           │
-                           ▼
-                  AWS Glue Data Catalog
-                           │
-                           ▼
-                   AWS Glue ETL Job
-              (Transformation & Enrichment)
-                           │
-                           ▼
-                 Amazon S3 (Curated Zone)
-                           │
-                           ▼
-                    Power BI Dashboard
+<img width="1000" height="500" alt="AWS Project" src="https://github.com/user-attachments/assets/4667265e-97c7-4709-9a69-5c577e961bd0" />
+
 
 ### 🛠️ AWS Services Used
 
